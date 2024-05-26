@@ -1,0 +1,35 @@
+.main_spin {
+          position: absolute;
+    transform: translate(-69px, 10px);
+    top: 50%;
+    left: 50%;
+    background-color: #bed0be;
+    margin-right: -50%;
+
+}
+
+.main_spin p{
+	    margin-top: 20px;
+}
+
+.spinner{
+    height: 50px;
+    width: 50px;
+    border-top: 4px solid;
+    border-radius: 50%;
+    margin-left: 56px;
+    transition-property: transform;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate{
+	from{
+		transform:rotate(0deg);
+	}
+	to{
+		transform:rotate(360deg);
+	}
+}
