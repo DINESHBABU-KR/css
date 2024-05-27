@@ -1,0 +1,21 @@
+.c1{
+	
+	text-align:center;
+	border:10px;
+	border:10px,20px;
+	
+}	
+a{
+	text-decoration:none;
+	color:red;
+	
+}
+li{
+	list-style-image:url("./im.png");
+}
+marquee{
+	text-transform:leftwards;
+}
+.c4{
+	background-color:lightblue;
+}

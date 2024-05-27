@@ -1,0 +1,121 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	padding:20px;
+	position:relative;
+}
+
+
+/*  HEADER  Start */
+
+
+.header{
+	display:flex;
+	padding:9px;
+	justify-content:space-around;
+	align-items:center;
+	    margin-top: 5px;
+}
+
+.logo,.navlink.others{
+	flow-shrink:0;
+}
+
+.header .logo img {
+	cursor:pointer;
+    height: 46px;
+    width: 198px;
+}
+
+.navlinks ul{	
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    gap: 33px;
+}
+
+.navlinks ul li{
+	text-transform:capitalize;
+	position:relative;
+}
+.navlinks ul li a{
+	color:blue;
+	text-decoration : none
+}
+
+.navlinks ul li::after{
+	content : "";
+	height : 3px;
+	width:0%;
+	position : absolute;
+	bottom:0;
+	left:0;
+	background: violet;
+	transition:0.5s;
+}
+
+.navlinks ul li a:hover { 
+	text-shadow: 0 0 5px #ff0000; 
+}
+
+.navlinks ul li:hover::after{
+	width:100%;
+}
+
+
+.others input[type=text] {
+  background-color: white;
+  background-image: url('../assets/searchicon.png');
+  background-position: 2px 1px;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+      background-size: contain;
+      box-shadow: 2px 2px 4px #615EFC;
+}
+
+
+
+.others{
+	display:flex;
+	justify-content:space-around;
+	gap: 33px;
+}
+
+.others .create {
+    width: 50px;
+    background-color: #615EFC;
+    height: 22px;
+    position: relative;
+    border-radius: 4px;
+    cursor:pointer;
+}
+ .profile,.wallet{
+	cursor:pointer;
+}
+
+.profile i:hover + .profile_detail{
+	display:flex;
+}
+
+.create span{
+    position: absolute;
+    left: 9%;
+}
+
+.profile_detail {
+    display: none;
+    position: absolute;
+    background: red;
+    right: 3%;
+    height: 170px;
+    z-index: 1;
+    width: 285px;
+    top: 79%;
+    border-radius: 34px;
+    transition:0.5s;
+    /* bottom: -154px; */
+}
+

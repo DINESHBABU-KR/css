@@ -1,0 +1,48 @@
+.ad{
+	display : grid;
+	grid-template-columns:1fr 1fr;
+	padding:20px;
+}
+
+.main_ad_img{
+	height:200px;
+	width:200px;
+}
+
+.ad_data{
+	padding:20px;
+}
+
+.ad_img{
+	border:2px solid red;
+	border-radius:26px;
+}
+
+.main_ad_img{
+        height: 237px;
+    width: 514px;
+    border-radius: 28px 28px 0 0;
+}
+
+.ad_footer{
+	height: 27px;
+	padding:20px;
+	display:flex;
+    border-top: 2px solid blue;
+    position:relative;
+}
+
+.ad_footer img{
+	    bottom: 18px;
+    left: 11%;
+	    border-radius: 50%;
+    position: absolute;
+	height:30px;
+	width:30px;
+}
+
+.ad_footer p{
+	position: absolute;
+    bottom: 24%;
+    left: 23%;
+}
