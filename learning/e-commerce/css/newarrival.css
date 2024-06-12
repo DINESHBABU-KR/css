@@ -1,0 +1,72 @@
+.new_arrivals{
+	height:500px;
+	background-color:#00000000;
+}
+
+.new_arrivals .title{
+	text-align:center;
+	    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+.pro_price{
+	    display: flex;
+    gap: 8px;
+
+}
+
+
+
+.new_arrivals .pro_img{
+
+	    height: 60%;
+    width: 100%;
+}
+
+.new_arrivals .card_section .discount{
+	color:red;
+	font-size: 13px;
+    font-weight: bolder;
+}
+
+.new_arrivals .view_all{
+	text-align: center;
+    margin: 14px 46%;
+    height: 32px;
+    width: 66px;
+    border: 1px solid #f0f0f0;
+    border-radius: 16px;
+}
+
+.new_arrivals .view_all:hover{
+	color:blue;
+}
+.new_arrivals .card_section{
+	background-color:#F0F0F0;
+	    height: 293px;
+    width: 190px;
+    border-radius:17px;
+}
+
+.card_section .pro_detail{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.new_arrivals .pro_name{
+	text-transform:capitalize;
+}
+
+.card_section .strike_price{
+	text-decoration: line-through;
+}
+
+.new_arrivals .cards{
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	margin-top:50px;
+}

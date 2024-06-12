@@ -1,0 +1,28 @@
+.category{
+	        height: 452px;
+    width: 94%;
+    background: red;
+    margin: 24px 24px 24px 24px;
+    border-radius: 30px;
+}
+
+
+.item5 { grid-area : header; }
+.item1 { grid-area : menu; }
+.item2 { grid-area : main; }
+.item3 { grid-area : right; }
+.item5 { grid-area : footer; }
+
+.grid_container{
+	display: grid;
+      grid-template-areas:
+    'header header header header header'
+    'menu menu main main main'
+    'right right right footer footer';
+}
+
+
+
+.category img{
+    
+}

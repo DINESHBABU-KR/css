@@ -1,0 +1,128 @@
+/* header top section */
+
+.top_header_discount{
+	background-color : black;
+	    min-height: 15px;
+    min-width: 100%;
+    position : relative;
+    text-align:center;
+    max-height: 15px;
+}
+
+.top_header_discount p{
+	    color: #ffffff;
+    font-size: 10px;
+    font-weight: 300;
+    font-family: 'Satoshi', sans-serif;
+    grid-column-end: 1;
+
+}
+
+.top_header_discount i{
+position : absolute;
+top:2px;
+right:6%;
+max-height: 1px;
+    height: 1px;
+
+}
+
+.top_header_discount p{
+    margin-bottom: 0;
+}
+
+.top_header_discount a{
+	color : inherit
+}
+
+
+/* header section */
+
+.header{
+    height : 40px;
+    background-color:#F0F0F0;
+    display:flex;   
+    justify-content:space-evenly;
+    align-items:center;
+}   
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.header ul{
+    list-style : none;
+    display:flex;
+    justify-content:space-evenly;
+    gap:22px;
+    margin:0;
+    padding:0;
+}
+
+.header p{
+margin:0;
+text-transform: uppercase;
+    font-weight: bolder;
+}
+}
+
+.header ul li{
+    color:black;    
+}
+
+.header ul li img{
+    padding-left: 7px;
+}
+
+.header ul li::after{
+    content:"";
+    height:3px;
+    width:100%;
+    background-color:blue;
+}
+
+.header ul li a{
+    text-decoration:none;
+    color:inherit;
+}
+
+.header input[type="text"]{
+            width: 40%;
+    padding-left: 50px;
+    border: aliceblue;
+    border-radius: 13px;
+    background-image:url(../assets/images/search.png);
+    background-repeat: no-repeat;
+    font-size: smaller;
+    background-position: 9px;
+    background-size: 15px;
+}

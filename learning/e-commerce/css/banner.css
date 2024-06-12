@@ -1,0 +1,110 @@
+.banner{
+	background-color:red;
+	height: 100%;
+    min-height:100%;
+	background-image:url(../assets/images/banner.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	position : relative;
+
+}
+
+.banner .texting{
+    width: 45%;
+    /* padding: 100px; */
+    display: flex;
+    max-height: 500px;
+    justify-content: center;
+    gap: 32px;
+    flex-direction: column;
+    /* padding: 72px; */
+    /* padding-right: 50%; */
+    margin-left: 50px;
+    padding-top: 80px;
+    /* margin-top: 19px; */
+}
+
+.banner .texting p:first-child{
+	font-size: 52px;
+    margin: 0;
+    font-weight: bolder;
+    line-height: 43px;
+}
+
+.banner .texting p:nth-child(2){
+	font-size: 13px;
+    padding-top: 14px;
+    color:#0000008a;
+}
+
+.banner .banner_btn{
+height: 30px;
+    width: 98px;
+    background-color: black;
+    color: white;
+    margin-top:9px;
+    border-radius: 15px;
+    margin-bottom: 14px;
+    transition:all 0.5s;
+}
+
+.banner .banner_btn:hover{
+
+    background-color: white;
+    color: black;
+}
+
+.texting ul{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-evenly;
+	padding:0;
+}
+
+.texting ul li{
+	display:flex;
+	font-size: 28px;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+.texting ul li span{
+	font-size:10px;
+	color:#0000008a;
+}
+
+.banner img{
+	position : absolute;
+}
+
+.banner .star1{
+	right: 7%;
+    top: 12%;
+}
+
+.banner .star2{
+	    left: 52%;
+    top: 42%;
+    height: 38px;
+}
+
+.sponsers{
+    height: 65px;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.sponsers .marq .marq_div{
+	display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sponsers p{
+	text-transform:uppercase;
+	font-size: x-large;
+    font-weight: bolder;
+}
