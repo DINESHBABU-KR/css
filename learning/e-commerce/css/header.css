@@ -79,6 +79,12 @@ max-height: 1px;
 .dropdown:hover .dropdown-content {display: block;}
 
 
+.dropdown:hover .close{
+   transform : rotate(180deg);
+}
+
+
+
 .header ul{
     list-style : none;
     display:flex;
