@@ -54,7 +54,24 @@ height: 30px;
     color: black;
 }
 
+.texting ul{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-evenly;
+	padding:0;
+}
 
+.texting ul li{
+	display:flex;
+	font-size: 28px;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+.texting ul li span{
+	font-size:10px;
+	color:#0000008a;
+}
 
 .banner img{
 	position : absolute;
